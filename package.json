@@ -1,0 +1,16 @@
+{
+  "name": "framework-wd-riscv-sdk",
+  "description": "The WD Firmware package contains Firmware applications and Processor Support Package (PSP) for various cores, alongside demos which support all features.",
+  "keywords": [
+    "framework",
+    "sdk",
+    "rtos",
+    "risc-v",
+    "western digital"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martyall/riscv-fw-infrastructure"
+  }
+}
