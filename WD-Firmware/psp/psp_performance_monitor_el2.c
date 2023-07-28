@@ -180,7 +180,7 @@ D_PSP_TEXT_SECTION u64_t pspMachinePerfCounterGet(u32_t uiCounter)
       uiCounterVal |= (u64_t)M_PSP_READ_CSR(D_PSP_MCYCLEH_NUM) << D_PSP_SHIFT_32; /* read high 32 bits */
       break;
     case D_PSP_TIME_COUNTER:
-      uiCounterVal = pspMachineTimerCounterGet();
+      /* uiCounterVal = pspMachineTimerCounterGet(); */
       break;
     case D_PSP_INSTRET_COUNTER:
       uiCounterVal  = (u64_t)M_PSP_READ_CSR(D_PSP_MINSTRET_NUM);                    /* read low 32 bits */
